@@ -1,0 +1,179 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f7fa;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 40px auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 5px 8.7px 20px 0 rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+}
+
+/* sidebar */
+
+.sidebar {
+    background-color: #1e2939;
+    width: 370px;
+    padding: 40px 0px;
+    flex-shrink: 0;
+}
+
+.sidebar__photo {
+    width: 100%;
+}
+
+.sidebar-container {
+    margin-left: 40px;
+    margin-top: 55px;
+}
+
+.sidebar-container__title {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.09;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.sidebar-list {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.sidebar-list__item {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+    text-align: left;
+    color: #fff;
+}
+
+.sidebar-list__item_unmarkered {
+    list-style-type: none;
+    margin-left: -15px;
+}
+
+.sidebar-list__item_color_orange,
+.job-container__title_color_orange {
+    color:#ff6b08;
+}
+
+.contacts-item {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: normal;  
+    line-height: 1.71;  
+    letter-spacing: 0.42px;  
+    text-align: left;  
+    color: rgba(255, 255, 255, 0.5); 
+}
+
+.sidebar-list__marker {
+    font-weight: bold;
+}
+
+.contacts-email {
+    text-decoration: underline;
+}
+
+.sidebar-list__text {
+    color: #fff;
+}
+
+/* main-container */
+.main-container {
+    padding: 100px 90px;
+}
+
+.summary-container {
+    padding-bottom: 10px;
+}
+
+.proffesion-title {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+    color: #000000;
+}
+
+.applicant-name {
+    font-size: 45px;
+    font-weight: bold;  
+    line-height: 1.98;  
+    letter-spacing: normal;  
+    color: #000000;
+}
+
+.summary-container__text {
+    font-size: 14px;
+    font-weight: normal;  
+    line-height: 1.71;  
+    letter-spacing: 0.42px;  
+    color: #595959;
+}
+
+.about-container {
+    margin-top: 55px;
+}
+
+.about-container__title {
+    font-size: 22px;
+    font-weight: bold;  
+    line-height: 1.09;  
+    color: #000000;
+}
+.about-container__list {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.about-container__list > li,
+.projects-container__text {
+    font-size: 14px;
+    font-weight: normal;  
+    line-height: 1.71;  
+    letter-spacing: 0.42px;  
+    color: #595959;
+}
+.projects-container__list > li {
+    font-size: 14px;
+    font-weight: bold;  
+    line-height: 1.71;  
+    letter-spacing: 0.42px;  
+    color: #000000;
+    padding-left: 10px;
+}
+.projects-container__link {
+    text-decoration: none;
+}
+.job-container {
+    margin-top: 20px;
+}
+.job-container__title {
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: bold;  
+    line-height: 1.5;  
+    letter-spacing: 0.48px;  
+}
+.job-container__date {
+    font-size: 12px;
+    font-weight: normal;  
+    line-height: 2;  
+    letter-spacing: 0.36px;
+    color: #a8a8a8;
+}
+.text_color_black {
+    color: black;
+}
